@@ -1,6 +1,6 @@
-import {useState} from "react";
+import React from "react";
 
-function PlantCard() {
+function PlantCard({plant}) {
 const { name, image, price } = plant;
 
   return (
